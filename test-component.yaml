@@ -14,4 +14,6 @@ spec:
   owner: user:guest
   consumesApis:
     - test-api
+  dependsOn:
+    - component:test
 
