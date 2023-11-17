@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: AnotherTest
+  description: Just another repo doing test things
+  annotations:
+    github.com/project-slug: 'jsmithedin/another-test'
+  tags:
+    - javascript
+    - hyperamp
+spec:
+  type: website
+  lifecycle: unknown
+  owner: user:guest
+  dependsOn:
+    - test
+  consumesApis:
+    - test-api
+
